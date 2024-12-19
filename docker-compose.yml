@@ -1,0 +1,19 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile  # Dockerfile for FastAPI
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app  # Mount the backend code
+      - ./backend/database.db:/app/database.db  # Mount the SQLite database file
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile  # Dockerfile for Vue.js
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./frontend:/app  # Mount the frontend code

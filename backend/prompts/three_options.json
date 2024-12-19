@@ -1,0 +1,15 @@
+{
+  "name": "three_options_prompt",
+  "input_variables": [],
+  "optional_variables": [],
+  "output_parser": null,
+  "partial_variables": {},
+  "metadata": null,
+  "tags": [
+    "prompt"
+  ],
+  "template": "Præsenter tre valg for hvordan historien skal fortsætte. De tre valg skal være væsentligt forskellige og må ikke minde om valg der er blevet præsenteret tidligere i historien. Retuner valgene i JSON format. Unndgå at brug citationstegn og linjeskift i JSON. Brug kategorien choice for valg og text til selve teksten",
+  "template_format": "f-string",
+  "validate_template": false,
+  "_type": "prompt"
+}

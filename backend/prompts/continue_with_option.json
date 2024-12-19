@@ -1,0 +1,17 @@
+{
+  "name": "continue_with_option_prompt",
+  "input_variables": [
+    "option"
+  ],
+  "optional_variables": [],
+  "output_parser": null,
+  "partial_variables": {},
+  "metadata": null,
+  "tags": [
+    "prompt"
+  ],
+  "template": "Læseren har valgt {option} Fortsæt historien efter samme instrukser som tidligere givet.  ",
+  "template_format": "f-string",
+  "validate_template": false,
+  "_type": "prompt"
+}

@@ -1,0 +1,7 @@
+# My stuff
+notes.txt
+test_notebook.ipynb
+
+*.pyc
+__pycache__/
+

@@ -1,0 +1,17 @@
+{
+  "name": "initial_story_prompt",
+  "input_variables": [
+    "theme"
+  ],
+  "optional_variables": [],
+  "output_parser": null,
+  "partial_variables": {},
+  "metadata": null,
+  "tags": [
+    "prompt"
+  ],
+  "template": "Du skal fortælle en historie om {theme}. Historien skal være i stil med en 'choose your own adventure' bog, hvor hver sider afsluttes med tre valg som har betydning for hvad der sker på næste side. Fortæl første side af en historien. Denne må højest være 5 sætninger lang. Vent med at præsenter de tre valg til jeg beder om dem. ",
+  "template_format": "f-string",
+  "validate_template": false,
+  "_type": "prompt"
+}
